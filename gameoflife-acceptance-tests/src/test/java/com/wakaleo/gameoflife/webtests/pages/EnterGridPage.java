@@ -6,10 +6,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-@DefaultUrl("http://localhost:9090/new")
+@DefaultUrl("http://localhost:9090/gameoflife/new")
 public class EnterGridPage extends GameOfLifePage {
 
-    @FindBy(id="submit")
+    @FindBy(id = "submit")
     WebElement goButton;
 
     public EnterGridPage(WebDriver driver) {
